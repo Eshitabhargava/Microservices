@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+    db:
+        image: postgres
+        restart: always
+        environment:
+            MYSQL_DATABASE: test_user
+            MYSQL_USER: root
+            MYSQL_PASSWORD: root
+            MYSQL_ROOT_PASSWORD: root
+        volumes:
+            - .dbdata:/var/lib/mysql
+        ports:
+            - 33068:3306

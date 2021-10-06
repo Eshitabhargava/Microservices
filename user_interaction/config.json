@@ -1,0 +1,8 @@
+{
+    "SECRET_KEY":"TEMP_KEY",	
+    "APP_SETTINGS":"development",
+    "DB_CONNECTION_STRING":"postgresql://postgres:new_password@localhost:5432/stats",
+    "DB_CONNECTION_POOL":5,
+    "PORT": 4240,
+    "SQLALCHEMY_TRACK_MODIFICATIONS": true
+}
