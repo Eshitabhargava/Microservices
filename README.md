@@ -18,3 +18,9 @@ The format for the same is "postgres://YourUserName:YourPassword@YourHostname:54
 9. Finally, to run the server -> **python run_app.py -ac config.json run**
 
 Postman collection link: https://www.getpostman.com/collections/c4d5e437699523261787
+
+Note:
+user microservice APIs have been authorized by JSON web tokens hence the steps to follow are:
+1. Register a user account
+2. Login through valid credentials. 
+3. Upon successful login, you will receive a token in response body. This token needs to be copied and sent as a part of "Authorization" headers.
