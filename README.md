@@ -1,4 +1,11 @@
 # Microservices
+The project shows 3 microservices namely, 
+1. User - REST APIs for performing CRUD operations on User's data such as Personal details (name, DOB etc)
+2. Content- Responsible for serving content based on several sorting modes and filters. Also offers several REST APIs to perform CRUD operations on Content Data
+3. User Interaction -  The intermediary service that talks to User & Content service. Majorly responsible for updating Stats of content data
+
+
+### Steps to run:
 Navigate into folder of each microservice folder and follow these steps:
 1. Create a virtual environment "venv"
 2. Activate virtual environment -> [source venv/bin/activate] or [venv\scripts\activate]
